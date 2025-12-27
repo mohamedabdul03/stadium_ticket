@@ -21,42 +21,6 @@ int main() {
     printf("Xulo kursiga aad doorbidayso (1-3): ");
     scanf("%d", &heerarka);
 
-    //qiimaha tikidka
-
-   /* printf("Imisa Ticket ayaad u baahantahay? ");
-    scanf("%d", &quantity);
-
-
-    if (heerarka == 1) {
-        if (quantity <= vipseat) {
-            total = quantity * vipseat;   //xisaabta lagu helayo khidmadda vip-ga iyada oo la isku dhufanayo tirada iyo qiimaha kursiga
-            printf("Waa laguu xaqiijiyay! Khidmadda guud ahaan waa: $%d\n", total);
-        } else {
-            printf("Waanu ka xunnahay, kuraasta VIP-ga ah waxba kama banaana!\n");
-        }
-    }
-    else if (heerarka == 2) {
-        if (quantity <= goldseat) {
-            total = quantity * goldseat;
-            printf("Waa laguu xaqiijiyay! Khidmadda guud ahaan waa: $%d\n", total);
-        } else {
-            printf("Waanu ka xunnahay, kuraasta GOLD-ga ah waxba kama banaana!\n");
-        }
-    }
-    else if (heerarka == 3) {
-        if (quantity <= silverseat) {
-            total = quantity * silverseat;
-            printf("Waa laguu xaqiijiyay! Khidmadda guud ahaan waa: $%d\n", total);
-        } else {
-            printf("Waanu ka xunnahay, kuraasta SILVER-ta ah waxba kama banaana!\n");
-        }
-
-    }
-    else {
-            // kani wuxuu xallinayaa haddii lambar qaldan la galiyo
-            printf("Error: Invalid seating level!\n");
-    } */
-    // Logic for Seating Levels
         if (heerarka == 1) {
             printf("Imisa VIP Ticket ayaad u baahantahay? ");
             scanf("%d", &quantity);
