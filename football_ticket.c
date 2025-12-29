@@ -12,6 +12,7 @@ int main() {
     printf("2. Liverpool vs Man City\n");
     printf("3. Chealsea vs Atletico Madrid\n");
 
+
     printf("\n Xulo kulanka aad xiiseynayso (1-3): ");
     scanf("%d", &match);
 
